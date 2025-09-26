@@ -3,7 +3,7 @@ using namespace std;
 
 class Student {
 public:
-    // properties/attributes
+    
     string name;
     string branch;
     string subject;
