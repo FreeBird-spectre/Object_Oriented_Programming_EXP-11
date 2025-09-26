@@ -1,27 +1,36 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
 
-class cube{
-    private :
-    double height = 8; 
-    double width = 7; 
-    double length = 4; 
-    
-    public :
-    double volume(){
-        double v; 
-        v = height*width* length ; 
-        return v;
+class Cube {
+private:
+    int side;
+    int volume;
+
+public:
+    void input() {
+        cout<<"Enter the side of Cube ";
+        cin >> side;
     }
 
-};
-int main() {
-    cube cu;
-    cout << "The volume is : " << cu.volume();
+    void calculateVolume() {
+        volume = side * side * side;
+    }
 
+    void output() {
+        cout << volume << endl;
+    }
+};
+
+int main() {
+    Cube c1;
+    c1.input();
+    c1.calculateVolume();
+    c1.output();
     return 0;
 }
 
-The volume is : 224
+Enter the side of Cube 5
+125
+
 
 === Code Execution Successful ===
