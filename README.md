@@ -1,4 +1,5 @@
 Experiment: Classes and Objects in C++
+
 🎯 Aim
 
 To study and implement classes and objects in C++ for solving real-world problems such as:
@@ -19,6 +20,7 @@ Objects are instances of a class, representing real-world entities such as cars,
 Using classes helps in organizing code, improving reusability, and applying object-oriented programming (OOP) concepts like encapsulation and abstraction.
 
 🛠️ Programs Implemented
+
 1️⃣ Car Class
 
 Description:
@@ -45,6 +47,7 @@ Print details.
 2️⃣ Rectangle Area Program
 
 Description:
+
 Takes length and width of a rectangle and calculates its area.
 
 Logic:
@@ -66,6 +69,7 @@ Display result.
 3️⃣ Student Class
 
 Description:
+
 Stores and displays student information like name, branch, subjects, and occupations.
 
 Logic:
@@ -89,6 +93,7 @@ Display details using cout.
 4️⃣ Cube Volume Program
 
 Description:
+
 Calculates the volume of a cube given its side length.
 
 Logic:
@@ -112,6 +117,7 @@ Print volume.
 5️⃣ Cuboid Volume Program
 
 Description:
+
 Calculates the volume of a cuboid using length, breadth, and height.
 
 Logic:
